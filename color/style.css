@@ -1,0 +1,33 @@
+.element {
+    height: 100%;
+    margin: 1rem;
+    border-style: solid;
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #ff0000;
+    }
+    14% {
+        background-color: #ff8000;
+    }
+    28% {
+        background-color: #ffff00;
+    }
+    42% {
+        background-color: #00cc00;
+    }
+    56% {
+        background-color: #3399ff;
+    }
+    70% {
+        background-color: #3f00ff;
+    }
+    84% {
+        background-color: #9400d3;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
